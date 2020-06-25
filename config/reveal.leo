@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,48 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20200625164719.1"><vh>封面投影片</vh>
+<v t="leo.20200625164719.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20200625164734.1"><vh>w1-w5</vh>
+<v t="leo.20200625164734.2"><vh>w1-w5</vh>
+<v t="leo.20200625164734.3"><vh>w1-w5</vh></v>
+</v>
+</v>
+<v t="leo.20200625164746.1"><vh>w6-w9</vh>
+<v t="leo.20200625164746.2"><vh>w6-w9</vh>
+<v t="leo.20200625164746.3"><vh>w6-w9</vh></v>
+</v>
+</v>
+<v t="leo.20200625164754.1"><vh>w10-w14</vh>
+<v t="leo.20200625164754.2"><vh>w10-w14</vh>
+<v t="leo.20200625164754.3"><vh>w10-w14</vh></v>
+</v>
+</v>
+<v t="leo.20200625164801.1"><vh>w15-w18</vh>
+<v t="leo.20200625164801.2"><vh>w15-w18</vh>
+<v t="leo.20200625164801.3"><vh>w15-w18</vh></v>
+</v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -48,18 +65,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
-
-### KMOLab
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[CMSimfly 網誌](./../blog/index.html)
-
-
-</t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -241,15 +246,6 @@ CMSimfly 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="leo.20180902120538.1"></t>
 <t tx="leo.20180902120538.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -326,5 +322,142 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200625164719.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200625164719.2">## CMSimfly 網際內容管理
+
+### KMOLab
+
+&lt;small&gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&lt;/small&gt;
+
+[CMSimfly 網誌](./../blog/index.html)
+
+
+</t>
+<t tx="leo.20200625164734.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20200625164734.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200625164734.3">[Week1-Week5](https://40623117.github.io/cd2020/content/W1-W5.html)
+
+* week1 建立個人倉儲
+
+* week2 重新建一個隨身系統及小組直播分工
+
+* week3 [Assignment1PDF](https://github.com/40623117/cd2020/blob/master/downloads/Assignment%201.pdf) 1.隨機分組 2.抽點名
+[第一次小組直播](https://youtu.be/HXS95dlMSv8)
+
+* week4 完成作業一
+* week5 清明連假
+
+ 
+
+
+
+</t>
+<t tx="leo.20200625164746.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20200625164746.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200625164746.3">[Week6-Week9](https://40623117.github.io/cd2020/content/W6-W9.html)
+
+* week6 [第二次小組直播](https://youtu.be/B6zwMXl1V3Y)
+進行作業二分工
+
+* week7 第一次遠距上課
+
+* week8 [assignment2PDF](https://github.com/40623117/cd2020/blob/master/downloads/translation%20Topic%200.pdf)
+1.V-rep更新版本 2.解決python 3.8.2版本leo閃退問題
+
+* wee9 期中考周錄製期中影片
+
+ 
+
+
+
+</t>
+<t tx="leo.20200625164754.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20200625164754.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200625164754.3">[Week10-Week14](https://40623117.github.io/cd2020/content/W10-W14.html)
+
+* week10 [第三次小組直播](https://youtu.be/jr4IxIwdHLk)
+使用CoppeliaSim、Webots、Onshape嘗試一個機電一體化
+
+* week11 1.gm用戶登入設置
+2.[第四次小組直播](https://youtu.be/rMHvI863RMo)
+
+* week12 1.Ubuntu設定及API連線
+2.[第五次小組直播](https://youtu.be/FTxEnqCzvxA) 3.[Assignment3PDF](https://github.com/40623117/cd2020/blob/master/downloads/Assignment%203.pdf)
+
+* week13 1.[第六次小組直播](https://youtu.be/TBn09TLJ3HQ)  2. IPv4 遠端控制設定
+
+* week14 1.[第七次小組直播](https://youtu.be/q_bKmJw3Hn4)  2.FlieZilla虛擬主機共享
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200625164801.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20200625164801.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200625164801.3">[Week15-Week18](https://40623117.github.io/cd2020/content/W15-W18.html)
+
+* week15 [W15抽點網站](http://mde.tw/cdbw15-2/content/index.html)
+
+* week16 IPv6對外連線個人倉儲
+
+* week18 1.[Final Project](https://github.com/40623117/cd2020/blob/master/downloads/Final%20project.pdf2.個人reveal) 3.期末報告影片
+
+
+
+
+</t>
 </tnodes>
 </leo_file>
