@@ -331,9 +331,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200625164719.2">## CMSimfly 網際內容管理
+<t tx="leo.20200625164719.2">## CMSimfly 協同產品設計實習
 
-### KMOLab
+### 40623117 楊智傑
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
